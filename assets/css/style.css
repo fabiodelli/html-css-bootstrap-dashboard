@@ -24,6 +24,10 @@
     color: #ff8f00;
 }
 
+.bg_blue{
+    background: blue !important;
+}
+
 /* #endregion Utiliti*/
 
 img{
