@@ -14,7 +14,17 @@
 
 --gray:#f8f9fa;
 
+--bell:#ff8f00;
+
 }
+
+/* #region Utiliti*/
+
+.text_bell{
+    color: #ff8f00;
+}
+
+/* #endregion Utiliti*/
 
 img{
     max-width: 100%;
@@ -37,6 +47,7 @@ main{
     width: 100px;
     height: calc(100vh - 60px);
     background-color:var(--side);
+    background-image: url(../img/sidebar-bg.png) ;
 }
 
 .info_student{
