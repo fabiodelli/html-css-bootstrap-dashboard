@@ -1,13 +1,48 @@
+:root{
+    
+--primary:#1B72E8;
+
+--side:#051E34;
+
+--tag:#F26E5B;
+
+--yellow:#FFC416;
+
+--green:#198754;
+
+--red:#DC3545;
+
+--gray:#f8f9fa;
+
+}
+
+img{
+    max-width: 100%;
+}
+.nav_bar{
+    position:fixed !important;
+    top: 0vh;
+    width: 100%;
+    height: 60px;
+}
+
+main{
+    height: calc(100vh - 60px);
+    width: calc(100%);
+    margin-top: 60px;
+    background-color:var(--gray);
+}
+
 .side_bar{
-    height: 100vh;
-    width: 200px;
-    background-color:black;
-    overflow-y: scroll;
+    width: 100px;
+    height: calc(100vh - 60px);
+    background-color:var(--side);
 }
 
 .info_student{
-    height: 100vh;
-    width: 100%;
-    background-color: blue;
-    overflow-y: scroll;
+    background-color:var(--primary);
+}
+
+.charts{
+    width:calc(100vw - 100px);
 }
