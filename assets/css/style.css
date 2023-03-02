@@ -1,3 +1,7 @@
+*{
+    /* border: 1px dashed black; */
+}
+
 :root{
     
 --primary:#1B72E8;
@@ -16,6 +20,8 @@
 
 --bell:#ff8f00;
 
+--blue:#165bba;
+
 }
 
 /* #region Utiliti*/
@@ -25,7 +31,10 @@
 }
 
 .bg_blue{
-    background: blue !important;
+    background: #165bba !important;
+}
+.bg_gray{
+    background: #f8f9fa !important;
 }
 
 /* #endregion Utiliti*/
@@ -42,9 +51,9 @@ img{
 
 main{
     height: calc(100vh - 60px);
-    width: calc(100%);
     margin-top: 60px;
     background-color:var(--gray);
+    
 }
 
 .side_bar{
@@ -58,6 +67,13 @@ main{
     background-color:var(--primary);
 }
 
-.charts{
-    width:calc(100vw - 100px);
-}
+
+
+
+
+
+
+
+<img width="20px" 
+src="./assets/img/class-avatar.jpg"
+ alt="avatar">
