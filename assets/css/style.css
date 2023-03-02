@@ -57,7 +57,7 @@ main{
 }
 
 .side_bar{
-    width: 100px;
+    width: 60px;
     height: calc(100vh - 60px);
     background-color:var(--side);
     background-image: url(../img/sidebar-bg.png) ;
@@ -68,12 +68,34 @@ main{
 }
 
 
+@media screen and (min-width:576px)  {
+    .canvas_width{
+        width: 100% !important;
+    }
+
+}
+@media screen and (min-width:768px)  {
+    .canvas_width{
+        width: 100% !important;
+    }
+}
+@media screen and (min-width:992px)  {
+    .canvas_width{
+        width: 50% !important;
+    }
+    .side_bar{
+        width: 100px;
+        
+    }
+}
 
 
 
 
 
 
-<img width="20px" 
-src="./assets/img/class-avatar.jpg"
- alt="avatar">
+
+
+
+
+
