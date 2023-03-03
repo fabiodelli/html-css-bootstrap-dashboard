@@ -73,6 +73,10 @@ main{
     background-color:var(--primary);
 }
 
+.text_align_icon{
+    vertical-align: middle;
+}
+
 /* #region Media*/
 
 @media screen and (min-width:576px)  {
